@@ -22,24 +22,10 @@ export default function HeroCarousel() {
   const slides = [
     {
       image: heroImage,
-      title: "Strategic Financial Precision",
-      subtitle: "Expert accounting tailored for modern enterprise growth.",
+      title: "Trusted Financial Excellence in Nigeria",
+      subtitle: "A composite firm of Certified National Accountants delivering exceptional audit, taxation, and financial advisory services to commercial, non-commercial, and government organizations across Nigeria.",
       cta: "Explore Services",
       link: "/services"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop", 
-      title: "Integrity in Every Number",
-      subtitle: "Comprehensive audit and assurance services you can trust.",
-      cta: "About Us",
-      link: "/about"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop",
-      title: "Future-Proof Your Wealth",
-      subtitle: "Proactive tax planning and wealth management strategies.",
-      cta: "Contact Us",
-      link: "/contact"
     }
   ];
 
@@ -72,13 +58,13 @@ export default function HeroCarousel() {
                   <p className="text-lg md:text-xl text-slate-100/90 font-light max-w-lg drop-shadow-md">
                     {slide.subtitle}
                   </p>
-                  <div className="pt-4">
+                  {/* <div className="pt-4">
                     <Link href={slide.link}>
                       <Button size="lg" className="text-base px-8 py-6 rounded-none border-2 border-primary bg-primary hover:bg-transparent hover:text-white transition-all duration-300 shadow-xl">
                         {slide.cta}
                       </Button>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </CarouselItem>

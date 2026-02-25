@@ -5,6 +5,7 @@ import { CheckCircle2, Award, Users, TrendingUp } from "lucide-react";
 import teamImage from "@/assets/team_1.jpg";
 import teamImage2 from "@/assets/team_2.jpg";
 import teamImage3 from "@/assets/team_3.jpg";
+import { MissionAndVision } from "@/components/MissionAndVision";
 
 export default function About() {
   const stats = [
@@ -62,7 +63,13 @@ export default function About() {
           </div>
         </div>
       </section>
+              
+      
+      <MissionAndVision  />
 
+
+
+      
       {/* Values Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
@@ -88,6 +95,11 @@ export default function About() {
           </div>
         </div>
       </section>
+
+
+
+
+
 
       {/* Gallery Section */}
       <GallerySection />
