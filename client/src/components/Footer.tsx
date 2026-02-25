@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Facebook, Twitter, Linkedin, Instagram, ArrowRight } from "lucide-react";
+import { ImageAsset } from "@/data/image";
 
 export default function Footer() {
   return (
@@ -9,15 +10,15 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="h-10 w-10 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-serif font-bold text-xl">
-                A
+              <div className="h-10 w-10 p-2 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-serif font-bold text-xl">
+                <img src={ImageAsset.logo} alt="logo" />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-tight text-white leading-none">
-                  Apex
+                  {ImageAsset.logo_data.title}
                 </span>
                 <span className="text-xs text-slate-400 uppercase tracking-widest">
-                  Financial
+                  {ImageAsset.logo_data.sub}
                 </span>
               </div>
             </div>

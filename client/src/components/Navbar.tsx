@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { ImageAsset } from "@/data/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +22,12 @@ export default function Navbar() {
       <div className="hidden md:block bg-primary text-primary-foreground py-2 text-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex gap-6">
-            <span className="flex items-center gap-2"><Phone className="h-3 w-3" /> +1 (555) 123-4567</span>
-            <span className="flex items-center gap-2"><Mail className="h-3 w-3" /> contact@apexfinancial.com</span>
+            <span className="flex items-center gap-2"><Phone className="h-3 w-3" /> 08033487097 </span>
+            <span className="flex items-center gap-2"><Mail className="h-3 w-3" /> kalovick1@gmail.com </span>
           </div>
-          <div className="flex gap-4 opacity-90">
+          {/* <div className="flex gap-4 opacity-90">
             <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -35,15 +36,15 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/">
             <a className="flex items-center gap-2">
-              <div className="h-10 w-10 bg-primary rounded-lg flex items-center justify-center text-white font-serif font-bold text-xl">
-                A
+              <div className="h-10 w-10 p-2 bg-primary rounded-lg flex items-center justify-center text-white font-serif font-bold text-xl">
+                <img src={ImageAsset.logo} alt="logo" />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-tight text-foreground leading-none">
-                  Apex
+                  {ImageAsset.logo_data.title}
                 </span>
                 <span className="text-xs text-muted-foreground uppercase tracking-widest">
-                  Financial
+                  {ImageAsset.logo_data.sub}
                 </span>
               </div>
             </a>
