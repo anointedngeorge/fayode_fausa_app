@@ -6,6 +6,7 @@ import teamImage from "@/assets/team_1.jpg";
 import teamImage2 from "@/assets/team_2.jpg";
 import teamImage3 from "@/assets/team_3.jpg";
 import { MissionAndVision } from "@/components/MissionAndVision";
+import { ProfileComponent } from "@/components/ProfileComponent";
 
 export default function About() {
   const stats = [
@@ -67,11 +68,13 @@ export default function About() {
       
       <MissionAndVision  />
 
+      
 
+      <ProfileComponent show_container={true} />
 
       
       {/* Values Section */}
-      <section className="py-20 bg-slate-50">
+      {/* <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Core Values</h2>
@@ -94,7 +97,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 

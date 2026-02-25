@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Profile section */}
 
-      <ProfileComponent show_container={true} />
+      <ProfileComponent show_container={false} />
 
       {/* Officers section */}
       <OfficersSection />

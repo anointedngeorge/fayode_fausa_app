@@ -456,6 +456,617 @@ export const ProfileComponent = ({
     "Fasua, K. O. (2016). Types of investments. A paper presented at the Pre-Retirement Training Workshop, Organised by NIPSS, Colon Carter Center, Lamingo, Jos, Nigeria.",
   ];
 
+  const international_workshop = [
+    "Pan African Federation of Accountants (PAFA) Board Meetings in Maputo, Entebbe, Marakesh, Tunis, Algiers, Windhoek, Dar Es Salaam, Ouagadougou, Nairobi, Mauritius, Kigali, Victoria Falls, Dakar. (2022-2025)",
+
+    "Accountancy Bodies in West Africa (ABWA) Council Meetings in Cotonou, Accra, Lome, Abuja, Banjul, Douala, Dakar, Freetown, Abidjan, Niamey. (2022-2025)",
+
+    "Pan African Federation of Accountants (PAFA), Accounting Stakeholder Forum. Nairobi, Kenya. January, 2024",
+
+    "3rd ECOWAS/ABWA Congress. Yamassoukro, Côte d'Ivoire. 2024",
+
+    "Inauguration of ANAN Cote D'ivoire Branch. ANAN Cote D'Ivoire Branch, Côte d'Ivoire. December, 2023",
+
+    "African Accounting and Finance Association (AAFA) Conference in Abuja, Dar Es Salaam, Dakar, Accra, Nairobi, Munyonyo, Kampala. (2012-2025)",
+
+    "21st World Congress of Accountants (IFAC). Mumbai, India, November 2022",
+
+    "CPA Ireland Leadership Training Institute of Certified Public Accountants Ireland in association with University College Cork and Irish Management Institute, Dublin, Ireland, May 2016",
+
+    "E-Learning Training on Moodle and CISCO Webex, ICT University, Baton Rouge, Louisiana, USA, March 2013",
+
+    "The International Center for Information Technology & Development (ICITD), Southern University, Baton Rouge, Louisiana, USA, Nov 2012",
+
+    "African Congress of Accountants (ACOA). Nairobi, Maputo, Marakesh, Abidjan, Kigali (2019-2025)",
+
+    "1st International Conference on Public Financial Management: Trust and Accountability in Public Financial Management, Chartered Institute of Public Finance and Accountancy, London, March 2011",
+
+    "23rd XBRL International Conference: Enhancing Business Performance, XBRL (eXtensible Business Reporting Language) International Inc, Montreal, Canada, Oct 2011",
+  ];
+
+  const local_workshop = [
+    "ANAN Mandatory Continuing Professional Development (MCPD) Programs. 1999-2025",
+
+    "ANAN Mandatory Professional Practitioners Forum (MPPF) Programs. 2012-2025",
+
+    "ANAN/CITN Joint Annual Council Retreat. ANAN/CITN, Abuja. 2023-2025",
+
+    "Fundamentals of the Capital Market. Morewits Consulting, Abuja, 2017",
+
+    "CPA Ireland Staff Training Programme. Institute of Certified Public Accountants in association with ANAN, Lagos, 2016",
+
+    "IFRS for SMEs Train the Trainer Workshop. IFRS Foundation, ABWA, Trade & Investment, Lagos, 2014",
+
+    "International Public Sector Accounting Standards (IPSAS). ANAN and CPA-Ireland, Keffi, 2014",
+
+    "International Financial Reporting Standards (IFRS). ANAN and CPA-Ireland, Lagos, 2014",
+
+    "National Transformation Through Effective Governance of ICT. ISACA, Lagos, 2013",
+
+    "Forensic Accounting, Auditing and Investigations Train-The-Trainer. ANAN and ENS Forensic, Abuja, 2013",
+
+    "Management Consultancy Skills. Development Centre for Management, Lagos, 2009",
+
+    "Public Sector Financial Reporting: Issues and Challenges. Nigerian Accounting Standard Board, Kano, 2008",
+
+    "Effective Information Management for Projecting Local Government Programmes and Activities in a Democratic System. Rechez Communications LTD & ANAN (Anambra State Branch), Awka, 2005",
+
+    "Mandatory Continuing Professional Development (MCPD) Programme. ANAN Across Nigeria, 1999-2021",
+
+    "Head, Accounting Team, National Board for Technical Education (NBTE) Re: Accreditation Panel to Rufus Giwa (Former Ondo State) Polytechnic, Owo, Ondo State, Nigeria, 2005",
+
+    "Member, Accounting Team, National Board for Technical Education (NBTE) Re: Accreditation Panel to Federal Polytechnic, Bauchi, Bauchi State, Nigeria, 2008",
+
+    "Member, Accounting Team, National Board for Technical Education (NBTE) Inspection of Facilities Panel to Uyo City Polytechnic, Uyo, Akwa Ibom State, Nigeria, 2013",
+
+    "Member, FAAC Sub-Committee on IPSAS, Implementation Assessment of Nigeria's Level of IPSAS Adoption and Implementation, 2022",
+
+    "Technical Adviser, Pan-African Federation of Accountants (PAFA) Governing Board, 2022-Date",
+
+    "Technical Adviser, Accountancy Bodies of West Africa (ABWA) Governing Council, 2022-Date",
+
+    "Member, Planning, Human Capital, and Finance Committee (PAFA), 2022-2023",
+
+    "Member, Audit and Risk Committee (PAFA), 2023-Date",
+
+    "Member, CEOs Forum, International Federation of Accountants (IFAC), 2019-Date",
+
+    "Head of Delegation, ICPAU Visit to NCA, 2024",
+
+    "Member, Governing Council, Federal Treasury Academy, Orozo, 2024",
+  ];
+
+  const acad_qualities = [
+    ["Board of Governors, NCA", "Member", "April, 2022"],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Director-General",
+      "March, 2019-April, 2022",
+    ],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Director of Studies",
+      "2014-2019",
+    ],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "College Secretary / Head of Administration",
+      "May, 2013",
+    ],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Director of Studies",
+      "2011-2013",
+    ],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Director, Student Affairs",
+      "Sept, 2010",
+    ],
+    ["Nigerian College of Accountancy, Jos", "Director, ICT", "Nov, 2006"],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Director of Studies",
+      "2002-2024",
+    ],
+    [
+      "Nigerian College of Accountancy, Jos",
+      "Asst. Director of Studies",
+      "1999",
+    ],
+
+    // Editorship of Academic Journal
+    ["Accountancy News Journal", "Member, Editorial Board", "2001-2004"],
+    ["Accountancy News Journal", "Secretary, Editorial Board", "2006-2010"],
+  ];
+
+  const community = [
+    [
+      "Secretary, Planning and Implementation Committee",
+      "ANAN University, Kwall",
+      "2020",
+    ],
+    [
+      "Secretary, IFAC/DFID/ANAN Project Team on Upgrade of Students' Manuals",
+      "ANAN",
+      "2017",
+    ],
+    ["Coordinator, ANAN Study Manuals Preparation/Development", "ANAN", "2014"],
+    [
+      "Member, Board of Governors",
+      "Nigerian College of Accountancy, Jos",
+      "2007",
+    ],
+    [
+      "Recorder, Board of Governors",
+      "Nigerian College of Accountancy, Jos",
+      "2011",
+    ],
+    [
+      "Member, Management Team",
+      "Nigerian College of Accountancy, Jos",
+      "1998-2022",
+    ],
+    [
+      "Chairman, Academic Board",
+      "Nigerian College of Accountancy, Jos",
+      "2002-2004",
+    ],
+    ["Chief Invigilator", "Nigerian College of Accountancy, Jos", "2005-2006"],
+    [
+      "Secretary-General",
+      "Nigerian College of Accountancy Alumni Association",
+      "2013-2015",
+    ],
+    [
+      "Protem Secretary, Alumni Association",
+      "Nigerian College of Accountancy",
+      "2009-2013",
+    ],
+    [
+      "Secretary, Central Planning Committee, 8th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2019",
+    ],
+    [
+      "Secretary, Central Planning Committee, 7th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2017",
+    ],
+    [
+      "Secretary, Central Planning Committee, 6th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2014",
+    ],
+    [
+      "Secretary, Central Planning Committee, 5th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2013",
+    ],
+    [
+      "Chairman, Protocol and Security Sub-Committee, 8th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2019",
+    ],
+    [
+      "Chairman, Protocol and Security Sub-Committee, 7th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2017",
+    ],
+    [
+      "Chairman, Protocol and Security Sub-Committee, 6th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2014",
+    ],
+    [
+      "Chairman, Protocol Sub-Committee, 5th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2013",
+    ],
+    [
+      "Chairman, Publicity Sub-Committee, 4th Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2011",
+    ],
+    [
+      "Chairman, Publicity Sub-Committee, 3rd Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2009",
+    ],
+    [
+      "Chairman, Protocol Sub-Committee, 2nd Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2007",
+    ],
+    [
+      "Chairman, Protocol Sub-Committee, 1st Convocation Ceremony",
+      "Nigerian College of Accountancy",
+      "2001",
+    ],
+    [
+      "Chairman, Protocol Sub-Committee, Fundraising Committee for Nigerian College of Accountancy",
+      "Association of National Accountants of Nigeria (ANAN)",
+      "2007",
+    ],
+    [
+      "Member/Secretary, Various Committees, Board of Governors",
+      "Nigerian College of Accountancy, Jos",
+      "2001",
+    ],
+    [
+      "Desk Officer, International Association for Accounting Education and Research (IAAER) and eXtensible Business Reporting Language Inc. (XBRL)",
+      "Association of National Accountants of Nigeria (ANAN)",
+      "2010-2013",
+    ],
+    [
+      "Chairman, Accountants-In-Training (AIT)/ICT Workshop Committee",
+      "Association of National Accountants of Nigeria",
+      "2012-2022",
+    ],
+  ];
+
+  // a. Church Roles
+  const church = [
+    [
+      "Chairman, Finance Management Committee",
+      "Living Faith Church, Jos",
+      "2007-2009",
+    ],
+    ["Chairman, Deacons' Board", "Living Faith Church, Jos", "2006-2007"],
+    [
+      "President, National Youth Ministry, Jos Chapter",
+      "Living Faith Church Worldwide",
+      "2006-2008",
+    ],
+    [
+      "Chairman, Hospitality Service Group",
+      "Living Faith Church, Jos",
+      "2004-2006",
+    ],
+    ["Treasurer, Ordained Workers Forum", "Living Faith Church", "2004-2006"],
+    [
+      "Chairman, Project Committee",
+      "Word of Faith Bible Institute, Jos Campus, August Special Leadership Diploma Course; Leadership Certificate Course and Basic Certificate Course",
+      "2005",
+    ],
+  ];
+
+  // b. Chieftaincy Titles
+  const chieftaincy = [
+    ["Dara Davou", "Vwang Chiefdom, Plateau State", "2022"],
+    ["Boba Selu", "Ifegunwa, Osun State", "2022"],
+    ["Aare Bobaseto", "Akure Kingdom, Ondo State", "2023"],
+  ];
+
+  // c. Community Service / Rotary Roles
+  const rotary = [
+    ["Assistant Governor", "Rotary International District 9127", "2024"],
+    ["Vice President", "Rotary Club of Jos Central", "2025-2026"],
+    [
+      "Chair, Entertainment Committee",
+      "District Learning Committee, Rotary District 9127",
+      "2025",
+    ],
+    [
+      "Chair, Venue Committee",
+      "District Governor Investiture, Rotary District 9127",
+      "2025",
+    ],
+    [
+      "Member, District Learning Committee",
+      "Rotary International 9127",
+      "2024-2026",
+    ],
+    [
+      "Chairman, Foundation Services",
+      "Rotary Club of Jos Central",
+      "2024-2025",
+    ],
+    [
+      "District Chair, New Generation (Youth Service)",
+      "Rotary International District 9127",
+      "2024-2026",
+    ],
+    [
+      "President of Presidents",
+      "Rotary Clubs in Plateau State, Nigeria",
+      "2023",
+    ],
+    ["President", "Rotary Club of Jos Central", "2023-2024"],
+    ["President-Elect", "Rotary Club of Jos Central", "2022-2023"],
+    [
+      "Chairman, Project and Community Service",
+      "Rotary Club of Jos Central",
+      "2021-2023",
+    ],
+  ];
+
+  const awards = [
+    [
+      "Meritorious Contribution to the Development and Advancement of Akure land",
+      "The Deji and Paramount Ruler of Akure land",
+      "2025",
+    ],
+    ["Honorary Membership", "Rotary Club of E-Golden Nigeria", "2025"],
+    [
+      "Professional Contribution in Humanity Accounting and Humanitarian Services",
+      "The President HP Abonta, AG and PAG of Rotary Club of Abuja Kubwa",
+      "2024",
+    ],
+    [
+      "Rotary Award as SAPHIRE HERO",
+      "Rotary District 9125 (2024 DISCON)",
+      "2024",
+    ],
+    [
+      "Humanitarian Personality Award",
+      "RATTAWU, Plateau State Chapter",
+      "2024",
+    ],
+    ["Impact Award of Productive Leadership", "Impact Media", "2024"],
+    [
+      "Award of Selfless Services to ANAN and Unique Leaderships Qualities",
+      "Association of National Accountants of Nigeria",
+      "2024",
+    ],
+    ["Award of Excellence", "Inner Wheel District 912, Nigeria", "2024"],
+    ["Award of Appreciation", "Rotary District 9127", "2024"],
+    [
+      "Award of Recognition for Humanitarian Service",
+      "St. Michael Model School B/Ladi",
+      "2024",
+    ],
+    [
+      "Award as Highest Foundation Donor (Cumulative 3 Position)",
+      "Rotary District 9127",
+      "2024",
+    ],
+    [
+      "Award as Highest Foundation Donor (Polio Plus Fund 2 Position)",
+      "Rotary District 9127",
+      "2024",
+    ],
+    [
+      "Award as Most Innovative Club President 2 Position",
+      "Rotary District 9127",
+      "2024",
+    ],
+    ["Man of the Year Award (Accounting Icon)", "Vanguard Newspapers", "2024"],
+    ["Award of Excellence", "NUASA National Body", "2023"],
+    ["Award of Excellence", "Rotary Club of Jos South", "2023"],
+    ["Humanitarian Service Award", "Rotary International", "2023"],
+    [
+      "Award of Excellence",
+      "Peoples' Chambers, Faculty of Law, University of Jos",
+      "2023",
+    ],
+    ["Award of Excellence", "Rotary International, Jos Central", "2023"],
+    [
+      "Award of Humanitarian Service",
+      "Rotary Alumni Association District 9125",
+      "2023",
+    ],
+    ["Award of Vocational Excellence", "Rotary Club of Naraguta", "2023"],
+    ["Award of Excellence", "Nigerian Icon Democracy Award (NiDA)", "2023"],
+    [
+      "Pan Nigerian Corporate Mandate Award",
+      "Coalition of Ethnic Nationality Youth Leaders of Nigeria (CENYLON)",
+      "2023",
+    ],
+    [
+      "Integrity/Ambassadorial Award",
+      "Nigerian Patriotic Youth Against Corruption & Transparency Initiative (NPYACPI)",
+      "2023",
+    ],
+    [
+      "Humanitarian and Human Capital Development Award",
+      "Plateau Man of The Year Award",
+      "2023",
+    ],
+    ["Award of Excellence", "South-West Youth Parliament", "2023"],
+    ["Award of Excellence", "The Officials Nigerian Magazine", "2022"],
+    ["Award of Excellence", "ANAN North-Central Zone", "2022"],
+    [
+      "Award of Social Impact/Human Capital Development",
+      "Plateau Man of the Year Awards",
+      "2022",
+    ],
+    [
+      "Award of Excellence, Humanitarian Service",
+      "Rotaract District 9125",
+      "2022",
+    ],
+    [
+      "Award of Recognition as Best New Rotarian of the year",
+      "Rotary Club of Jos Central",
+      "2021",
+    ],
+    ["Award of Vocational Excellence", "Rotary Club of Jos Central", "2021"],
+    ["Hasken Matassan Arewa", "Arewa Youth Congress", "2020"],
+    ["Vanguard of Quality Legacy of the Year", "Bbold Initiative", "2020"],
+    [
+      "National Patron",
+      "National Association of Polytechnic Accounting Students (NAPAS)",
+      "2020",
+    ],
+    [
+      "Award of Excellence (Nomination into CITN Council Committee)",
+      "",
+      "2020",
+    ],
+    ["Award of Excellence", "Leagues of African Development Students", "2020"],
+    [
+      "Nelson Mandela African Patriotic Leader Award",
+      "Trans-African Youth Initiative",
+      "2020",
+    ],
+    [
+      "Award of Excellence",
+      "Nigerian Youth Liberation for Good Governance",
+      "2020",
+    ],
+    [
+      "Award of Excellence",
+      "Council Member, African Accounting and Finance Association (AAFA) Board",
+      "2020",
+    ],
+    [
+      "Award of Excellence",
+      "Association of Northern Nigerian Students",
+      "2020",
+    ],
+    ["Award of Excellence", "Oodua Youth Parliament", "2020"],
+    [
+      "Most Committed Public Servant Award",
+      "National Association of Nigerian Students, Zone 'C'",
+      "2020",
+    ],
+    [
+      "Award of Excellence",
+      "National Youth Movement Against Corruption and Social Injustice",
+      "2019",
+    ],
+    [
+      "Award of Excellence",
+      "Sir Ahmadu Bello Northern Youth Council of Nigeria",
+      "2019",
+    ],
+    [
+      "Award of Excellence",
+      "West African Students Union Parliament Awards",
+      "2019",
+    ],
+    ["Award of Excellence", "Young Women Congress of Nigeria", "2019"],
+    ["Award of Excellence", "African Youth for Good Governance", "2019"],
+    ["Award of Excellence", "ABU Post-Graduate Representative Council", "2019"],
+    [
+      "Award of Excellence",
+      "Nelson Mandela Outstanding Leadership Honor",
+      "2019",
+    ],
+    [
+      "Award of Excellence",
+      "National Youth Movement Against Corruption and Social Justice",
+      "2019",
+    ],
+    ["Award of Excellence", "Pastor Charles Okojie", "2019"],
+    [
+      "Award of Excellence",
+      "National Association of Nigerian Universities Students",
+      "2019",
+    ],
+    [
+      "Award of Excellence",
+      "African Emerging Leadership, Research and Development Organization",
+      "2019",
+    ],
+    [
+      "Award of Excellence",
+      "National Association of Nigerian Students",
+      "2019",
+    ],
+    [
+      "Award for Advancing the Science of Accountancy",
+      "ANAN Ikeja Branch",
+      "2018",
+    ],
+    ["Award as Accounting Trailblazer", "ANAN Plateau Branch", "2018"],
+    [
+      "Award of Recognition and Commitment",
+      "African Accounting and Finance Association (AAFA)",
+      "2018",
+    ],
+    [
+      "Merit Award for Professional Ethics & Diligence",
+      "Association of National Accountants (FCT1 Branch)",
+      "2017",
+    ],
+    [
+      "Distinguished Service Award for Outstanding Service",
+      "Association of National Accountants of Nigeria (ANAN)",
+      "2013",
+    ],
+    [
+      "Commendation Award",
+      "Association of National Accountants of Nigeria (ANAN)",
+      "2012",
+    ],
+    [
+      "Best Lecturer, 2016/2017",
+      "Nigerian College of Accountancy, Jos",
+      "2017",
+    ],
+    [
+      "Best Lecturer, 2015/2016",
+      "Nigerian College of Accountancy, Jos",
+      "2016",
+    ],
+    [
+      "Best Lecturer, 2014/2015",
+      "Nigerian College of Accountancy, Jos",
+      "2015",
+    ],
+    [
+      "Best Lecturer, 2013/2014",
+      "Nigerian College of Accountancy, Jos",
+      "2014",
+    ],
+    [
+      "Best Lecturer, 2012/2013",
+      "Nigerian College of Accountancy, Jos",
+      "2013",
+    ],
+    [
+      "Honorary Mayor-President of the City of Baton Rouge, Parish of East Baton Rouge, Louisiana, USA",
+      "Office of the Mayor-President of the City of Baton Rouge, Parish of East Baton Rouge, Louisiana, USA",
+      "2012",
+    ],
+    [
+      "Nigerian Merit Gold Award for Productivity",
+      "Platinum Standard Publications Ltd Nigeria",
+      "2012",
+    ],
+    [
+      "Best Lecturer, 2011/2012",
+      "Nigerian College of Accountancy, Jos",
+      "2012",
+    ],
+    [
+      "Best Lecturer, 2010/2011",
+      "Nigerian College of Accountancy, Jos",
+      "2011",
+    ],
+    [
+      "2000 Outstanding Intellectuals of the 21st Century, 2nd Edition",
+      "International Biographical Centre, Cambridge, England",
+      "2003",
+    ],
+    [
+      "21st Century Award for Achievement",
+      "International Biographical Centre, Cambridge, England",
+      "2003",
+    ],
+    [
+      "Who's Who in the 21st Century – 2nd Edition",
+      "International Biographical Centre, Cambridge, England",
+      "2002",
+    ],
+    [
+      "Order of Excellence",
+      "International Biographical Centre, Cambridge, England",
+      "2002",
+    ],
+  ];
+
+  const teachingExperience = [
+    ["ANAN University, Kwall", "Associate Professor", "Dec 2025"],
+    ["ANAN University, Kwall", "Senior Lecturer", "Oct 2021 - Dec 2025"],
+    ["Nigerian College of Accountancy, Jos", "Chief Lecturer", "2017"],
+    ["Nigerian College of Accountancy, Jos", "Principal Lecturer", "2011"],
+    ["Nigerian College of Accountancy, Jos", "Lecturer", "1998"],
+    ["Nigerian College of Accountancy, Jos", "Part-Time Lecturer", "1997"],
+  ];
+
   return (
     <section className="py-20 md:py-32 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
@@ -611,6 +1222,15 @@ export const ProfileComponent = ({
             />
           </div>
 
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Position Held", "Date"]}
+              content={teachingExperience}
+              title="Teaching Experience"
+              classname="text-primary"
+            />
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
             {/* <PdfReader src={ImageAsset.cv} /> */}
             <ListComponent
@@ -638,6 +1258,79 @@ export const ProfileComponent = ({
               classname="text-primary"
             />
           </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">
+            {/* <PdfReader src={ImageAsset.cv} /> */}
+            <ListComponent
+              content={international_workshop}
+              title="INTERNATIONAL WORKSHOPS, TRAININGS, AND SEMINARS ATTENDED"
+              classname="text-primary"
+            />
+            <ListComponent
+              content={local_workshop}
+              title="Local Workshops, Trainings, And Seminars Attended"
+              classname="text-primary"
+            />
+          </div>
+
+          {/* academic qualities */}
+
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Possition Held", "Date"]}
+              content={acad_qualities}
+              title="ACADEMIC LEADERSHIPQUALITIES "
+              classname="text-primary"
+            />
+          </div>
+
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Possition Held", "Date"]}
+              content={community}
+              title="CONTRIBUTION TO THE COLLEGE/ UNIVERSITY"
+              classname="text-primary"
+            />
+          </div>
+
+
+
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Possition Held", "Date"]}
+              content={church}
+              title="CONTRIBUTION TO THE COMMUNITY - CHURCH"
+              classname="text-primary"
+            />
+          </div>
+
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Possition Held", "Date"]}
+              content={chieftaincy}
+              title="CONTRIBUTION TO THE COMMUNITY - CHIEFTAINCY"
+              classname="text-primary"
+            />
+          </div>
+
+          <div className="mt-10">
+            <TableComponent
+              head={["Organization", "Possition Held", "Date"]}
+              content={rotary}
+              title="CONTRIBUTION TO THE COMMUNITY - ROTARY"
+              classname="text-primary"
+            />
+          </div>
+
+          <div className="mt-10">
+            <TableComponent
+              head={[]}
+              content={awards}
+              title="AWARDS"
+              classname="text-primary"
+            />
+          </div>
+
+          {/*  */}
         </div>
       ) : (
         ""
