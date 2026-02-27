@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Facebook, Twitter, Linkedin, Instagram, ArrowRight } from "lucide-react";
 import { ImageAsset } from "@/data/image";
+import { siteInfo } from "@/data/siteInfo";
 
 export default function Footer() {
   return (
@@ -60,16 +61,16 @@ export default function Footer() {
             <h3 className="font-serif text-lg font-semibold text-white mb-6">Contact Us</h3>
             <ul className="space-y-4 text-sm text-slate-400">
               <li className="flex gap-3">
-                <span className="text-emerald-500 font-semibold">A:</span>
-                123 Financial District Blvd,<br />Suite 400, New York, NY 10005
+                {/* <span className="text-emerald-500 font-semibold">A:</span> */}
+                {/* 123 Financial District Blvd,<br />Suite 400, New York, NY 10005 */}
               </li>
               <li className="flex gap-3">
                 <span className="text-emerald-500 font-semibold">P:</span>
-                +1 (555) 123-4567
+                {siteInfo.tel}
               </li>
               <li className="flex gap-3">
                 <span className="text-emerald-500 font-semibold">E:</span>
-                contact@apexfinancial.com
+                {siteInfo.email}
               </li>
             </ul>
           </div>
@@ -79,7 +80,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-slate-800 bg-slate-950 py-6">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Apex Financial. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kayode Fasua Financial. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

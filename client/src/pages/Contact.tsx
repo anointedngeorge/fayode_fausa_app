@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { siteInfo } from "@/data/siteInfo";
 
 export default function Contact() {
   return (
@@ -38,8 +39,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-lg">Visit Us</h3>
                     <p className="text-muted-foreground">
-                      123 Financial District Blvd, Suite 400<br />
-                      New York, NY 10005
+                      {siteInfo.address}
                     </p>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    <p className="text-sm text-muted-foreground">Mon-Fri from 9am to 6pm</p>
+                    <p className="text-muted-foreground">{siteInfo.tel}</p>
+                    {/* <p className="text-sm text-muted-foreground">Mon-Fri from 9am to 6pm</p> */}
                   </div>
                 </div>
 
@@ -61,8 +61,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Email Us</h3>
-                    <p className="text-muted-foreground">contact@apexfinancial.com</p>
-                    <p className="text-muted-foreground">support@apexfinancial.com</p>
+                    <p className="text-muted-foreground">{siteInfo.email}</p>
+                    {/* <p className="text-muted-foreground">support@apexfinancial.com</p> */}
                   </div>
                 </div>
               </div>

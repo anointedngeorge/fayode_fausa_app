@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import auditIcon from "@/assets/service-audit.png";
 import taxIcon from "@/assets/service-tax.png";
 import advisoryIcon from "@/assets/service-advisory.png";
+import { ServiceComponent } from "@/components/ServiceComponent";
 
 export default function Services() {
   const allServices = [
@@ -60,20 +61,7 @@ export default function Services() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-black/10 rounded-full blur-3xl" />
       </div>
 
-      <div className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {allServices.map((service, index) => (
-              <ServiceCard 
-                key={index}
-                title={service.title}
-                description={service.description}
-                icon={service.icon}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
+      <ServiceComponent />
 
       {/* CTA Section */}
       <section className="py-20 bg-white">
