@@ -13,6 +13,7 @@ import { AboutComponent } from "@/components/AboutComponent";
 import { ServiceComponent } from "@/components/ServiceComponent";
 import { ProfileComponent } from "@/components/ProfileComponent";
 import OfficersSection from "@/components/OfficersSection";
+import { siteInfo } from "@/data/siteInfo";
 
 export default function Home() {
   
@@ -59,11 +60,11 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
                   <div className="bg-white/10 backdrop-blur p-4 rounded-lg border border-white/20">
                     <p className="text-sm text-emerald-200 uppercase tracking-wider font-semibold">Call Us</p>
-                    <p className="text-xl font-bold">+1 (555) 123-4567</p>
+                    <p className="text-xl font-bold">{siteInfo.tel2}</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur p-4 rounded-lg border border-white/20">
                     <p className="text-sm text-emerald-200 uppercase tracking-wider font-semibold">Email Us</p>
-                    <p className="text-xl font-bold">contact@apexfinancial.com</p>
+                    <p className="text-xl font-bold"> {siteInfo.email2} </p>
                   </div>
                 </div>
               </div>
